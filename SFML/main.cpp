@@ -59,7 +59,7 @@ int main() {
         //to an updated location. This will now adjust the image being
         //shown by the sprite.
         time++;
-        if (isAnimate && time >= 10) {
+        if (isAnimate && time >= 20) {
             time = 0;   spriteFrame++;
             spriteRec.position.x = spriteFrame % 4 * sp_w;
             spriteRec.position.y = spriteFrame / 4 * sp_h;
