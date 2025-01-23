@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
-//test
+//void Function keme keme keme
 
 int main() {
     sf::RenderWindow window(sf::VideoMode({ 512, 512 }), "Sol Tabboga");
