@@ -134,7 +134,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AtlasParserM.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SCP02c_resources.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AtlasParserM.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="sweetpack.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
